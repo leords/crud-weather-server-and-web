@@ -1,0 +1,50 @@
+.container {
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 20px;
+    background-color: rgb(238, 187, 139);
+    border-radius: 12px;
+    opacity: 0.9;
+    
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+        p {
+            margin-right: 10px;
+        }   
+            input {
+                margin-right: 10px;
+                width: 250px;
+            }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2px;
+
+        span {
+            margin-top: 3px;
+            margin-left: 10px;
+        }
+}
+
+.buttonDel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}

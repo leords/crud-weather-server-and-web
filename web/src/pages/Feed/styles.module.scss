@@ -1,0 +1,23 @@
+.container {
+
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    column-gap: 80px; //espaço entre as duas colunas!
+    position: relative;
+}
+
+.weather {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu {
+    justify-content: center;
+    align-items: center;
+ 
+}
